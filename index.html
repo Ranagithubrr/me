@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- progress-css -->
+    <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
+    <!--font awesome icons css-->
+    <script src="https://use.fontawesome.com/46f2e337e2.js"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kalam:wght@300;400&family=Merienda&family=Orbitron:wght@400;500&family=Patrick+Hand&family=Permanent+Marker&family=Saira+Condensed:wght@200;400&family=Secular+One&display=swap" rel="stylesheet">
+
+  
+      <!-- ui-kit css -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animatin.css">
+
+    <!--Bootstrap and main css-->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Rana- RR -Web designer</title>
+    <link rel="shortcut icon" href="img/favicon3.png" type="image/x-icon">
+  </head>
+  <body>
+    
+    <section id="nav">
+    <div class="container-fluid">
+        <div class="row" id="nav-bar">
+            <div class="col-12 col-md-4 col-lg-6 left animate__animated animate__zoomIn">
+                <a href="#">rana. rr</a>
+                <button id="bar-btn">
+                    <i id="bars"  class="fa fa-bars" aria-hidden="true"  type="button"></i>
+                    <i id="times"  class="hide fa fa-times" aria-hidden="true"  type="button"></i>
+                </button>
+            </div>
+            <div id="nav-right" class="col-12 col-md-8 col-lg-6 right d-flex animate__animated animate__backInLeft">
+                <ul id="one-page-nav">
+                    <li><a href="#main-sec">Home</a></li>
+                    <li><a href="#about-sec">about me</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#hire-me">Hire me</a></li>
+                    <li><a href="#quality">Quality</a></li>
+
+                    <a href="#" id="contact-btn">
+                        <button class="animate__animated animate__pulse animate__infinite	infinite">Hire me</button>
+                    </a>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- main section -->
+    <section id="main-sec">
+        <div class="container-fluid py-5">
+        <div class="row text-center">
+            <div class="col-12 pt-5 text-light">
+                <span id="hello-i-m">
+                    Hello, I am
+                </span>
+                <h4 id="my-name" class="animate__animated animate__jello">Masud Rana</h4>
+                <h5>Web <span id="typed"></span></span></h5>
+                <button class="btn1 animate__animated animate__bounceInDown">Hire me</button>
+            <button class="btn2 animate__animated animate__bounceInDown animate__delay-1s">View Resume</button>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <sectiom id="about-sec">
+        <div class="container-fluid py-5">
+        <div class="row about">
+            <div class="col-12 col-md-6 left">
+                <img src="img/cartoon.png" alt="" class="img-fluid wow animate__animated animate__bounceInDown">
+            </div>
+            <div class="col-12 col-md-6 right">
+                <div class="a-card text-light wow animate__animated animate__bounceInRight">
+                    <h4>about me -</h4>
+                    <p>Hi ! This is Masud Rana. A proffessional web designer and web developer.
+                        I am working as a web designer since 2019.
+                        As a developer, my main goal is perfection and client setisfiction.
+                        I have fully confidence with my work. I love to code 
+
+                    </p>
+                    <a href="#" class="cv">
+                        <button class="wow animate__animated animate__hinge animate__delay-1s	">Download CV</button>   </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </sectiom>
+
+
+    <section id="projects">
+    <div class="container py-5">
+        <div class="row text-center mt-5">
+            <div class="col-12 top">
+                <h4 class="wow animate__animated animate__bounceInUp">Take a look at my recent projects</h4>
+            </div>
+        </div>
+
+
+        <div class="row text-center mid">
+            <div class="col-12 wow animate__animated animate__fadeInTopLeft">
+                <button class="buttons1" data-filter="all">All</button>
+                <button class="buttons2" data-filter=".catagory-a">PSD</button>
+                <button class="buttons3" data-filter=".catagory-b">Landing</button>
+                    
+                <button class="buttons4" data-filter=".catagory-c">Bootstrap</button>
+            </div>
+        </div>
+
+
+        <div class="row bottom mt-5">
+            <div class="col-12 col-md-4 mix catagory-b mt-4">
+                <div class="divs div1 wow animate__animated animate__fadeInLeft" >
+
+                    <div uk-lightbox>
+                    <a href="img/finix.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                     </a>
+                    </div>
+
+                    <div class="overlay">
+             
+                        <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/Finix/" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/Finix" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mix catagory-a mt-4">
+                <div class="divs div2 wow animate__animated animate__fadeInDown">
+                    <div uk-lightbox>
+                    <a href="img/cuda.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                     </a>
+                    </div>
+                    <div class="overlay">
+                    <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/Cuda" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/Cuda" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mix catagory-c mt-4">
+                <div class="divs div3 wow animate__animated animate__fadeInRight">
+                    <div uk-lightbox>
+                    <a href="img/looplab.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                    </a>
+                    </div>
+
+                    <div class="overlay">
+                    <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/Looplab" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/Looplab" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+          
+        
+        
+            <div class="col-12 col-md-6 mix catagory-a mt-4">
+                <div class="divs div4 wow animate__animated animate__fadeInLeft">
+                    <div uk-lightbox>
+                    <a href="img/axit.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                    </a>
+                    </div>
+
+                    <div class="overlay">
+                    <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/axit" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/axit" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mix catagory-a mt-4">
+                <div class="divs div5 wow animate__animated animate__fadeInRight">
+                    <div uk-lightbox>
+                    <a href="img/xisen.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                     </a>
+                    </div>
+
+                    <div class="overlay">
+                    <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/xisen" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/xisen" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+          
+        
+        
+            <div class="col-12 col-md-4 mix catagory-c mt-4">
+                <div class="divs div6 wow animate__animated animate__fadeInLeft">
+                    <div uk-lightbox>
+                    <a href="img/nobodyfool.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                    </a>
+                    </div>
+                    <div class="overlay">
+                    <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/Nobodyfool" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/Nobodyfool" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mix catagory-b mt-4">
+                <div class="divs div7 wow animate__animated animate__fadeInDown">
+                    <div uk-lightbox>
+                    <a href="img/systemetic.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                    </a>
+                    </div>
+
+                    <div class="overlay">
+                    <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/systemetic" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/systemetic" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mix catagory-b mt-4">
+                <div class="divs div8 wow animate__animated animate__fadeInRight">
+                    <div uk-lightbox>
+                    <a href="img/xisen.png" class="large-btn-a">
+                    <button class="large-btn"> View</button>
+                    </a>
+                    </div>
+                    <div class="overlay">
+                    <div class="row buttons" id="row-btns">
+                        <div class="col-6 p-0">
+                            <a href="https://ranagithubrr.github.io/xisen" target="_blank">
+                            <button class="demo">Live Demo</button>
+                        </a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a href="https://github.com/ranagithubrr/xisen" target="_blank">
+                            <button class="code">View code</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="row last mt-5">
+            <div class="col-12 text-center text-light pb-4">
+                <a href="https://github.com/Ranagithubrr" target="_blank" class="text-light link">See more projects >></a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </section>
+
+    <section id="skills">
+        <div class="container-fluid py-5">
+            <div class="row top text-center">
+                <div class="col-12">
+                <h4 class="wow animate__animated animate__fadeInDown">Here's my skills</h4>
+                <p class="wow animate__animated animate__fadeInRight">depending on language</p>
+            </div>
+            </div>
+        <div class="row bottom text-light">
+            <div class="col-6 wow animate__animated animate__flipInX">
+                <h4>HTML</h4>
+               <div id="one"></div>
+                <h4>CSS</h4>
+               <div id="two"></div>
+                <h4>JavaScript</h4>
+               <div id="three"></div>
+            </div>
+            <div class="col-6 wow animate__animated animate__flipOutX">
+                <h4>Jquery</h4>
+               <div id="four"></div>
+                <h4>Bootstrap</h4>
+               <div id="five"></div>
+                <h4>Sass</h4>
+               <div id="six"></div>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <section id="process">
+    <div class="container-fluid py-5">
+        <div class="row text-center text-light first">
+            <div class="col-12">
+            
+                <h4 class="mt-4 wow animate__animated animate__bounceInDown">working process</h4>
+                <p class="wow animate__animated animate__bounceInUp">the system as I usally work</p>
+            </div>
+        </div>
+        <div class="row text-light text-center second mt-5">
+            <div class="col-12 col-md-4">
+                <div class="cards wow animate__animated animate__fadeInLeft">
+                    <span><img src="img/project (22).png" class="img-fluid" alt="img"></span>
+                    <h3>1</h3>
+                    <h4>Projects Details</h4>
+                    <p>First of all, you have to choose a design or a PSD file that you like. You have to send me the PSD or the sample design , and also all of your other details. </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="cards wow animate__animated animate__fadeInDown">
+                    <span>
+                        <img src="img/coding.png" class="img-fluid" alt="img">
+                    </span>
+                    <h3>2</h3>
+                    <h4>Coding</h4>
+                    <p>I will do the perfect code for your website. Fully clean and 100% Hand Made code for you. You will also get the source file too.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="cards wow animate__animated animate__fadeInRight">
+                    <span>
+                        <img src="img/project (33).png" class="img-fluid" alt="img">
+                    </span>
+                    <h3>3</h3>
+                    <h4>Done</h4>
+                    <p>Finishd. Now you will get a real website. Fully responsive all of design. Now its ready to publish</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="hire-me">
+        <div class="container-fluid py-5">
+        <div class="row text-center first-row">
+            <div class="col-12">
+                <h4 class="wow animate__animated animate__fadeInDownBig">You can hire me via<img src="img/fiverr4.png" class="fiverr img-fluid" alt=""> </h4>
+                <p class="wow animate__animated animate__fadeInUpBig">lets have look to my packages</p>
+            </div>
+        </div>
+        <div class="row second-row pt-4">
+            <div class="col-12 col-md-4">
+                <div class="cards first text-light wow animate__animated animate__flipInY">
+                    <h4 class="basics">basics</h4>
+                    <span class="para">simple 3-5 section HTML convert</span>
+                   <h4 class="price">$20</h4>
+                    <p class="text-center one-page">One page simple HTML convert</p>
+                    <h4 class="delivery"> <span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 3 days delivery</h4>
+                    <ul>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                                1 page design
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                                3-5 sections
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                                Responsive design
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-times-circle" aria-hidden="true"></i>
+                            </span> 
+                            
+                            slider/scroller
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                             Browser compability
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-times-circle" aria-hidden="true"></i>
+                            </span> 
+                            server upload
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                             3 revisons
+                        </li>
+                        
+                    </ul>
+
+                    <a href="#" class="order">
+                        <button>Order Now ($20)</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="cards second text-light wow animate__animated animate__flipInY">
+                    <div class="best">Best</div>
+                    <h4 class="basics">standard</h4>
+                    <span class="para">Standard 5-8 section HTML convert</span>
+                   <h4 class="price">$50</h4>
+                    <p class="text-center one-page">One page Advanced HTML convert</p>
+                    <h4 class="delivery"> <span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 4 days delivery</h4>
+                    <ul>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                                1 page design
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                                5-8 sections
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                                Responsive design
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                            
+                            slider/scroller
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                             Browser compability
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                            server upload
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                             unlimited revisons
+                        </li>
+                        
+                    </ul>
+
+                    <a href="#" class="order">
+                        <button>Order Now ($50)</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="cards third text-light wow animate__animated animate__flipInY">
+                    <h4 class="basics">premium</h4>
+                    <span class="para">Complex 8-12 section HTML convert</span>
+                   <h4 class="price">$120</h4>
+                    <p class="text-center one-page">One page Complex HTML convert</p>
+                    <h4 class="delivery"> <span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 5 days delivery</h4>
+                    <ul>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                                1 page design
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                                8-12 sections
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                                Responsive design
+                        </li>
+
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                            
+                            slider/scroller
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                             Browser compability
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span> 
+                            server upload
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                             unlimited revisons
+                        </li>
+                        
+                    </ul>
+
+                    <a href="#" class="order">
+                        <button>Order Now ($120)</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+         </div>
+    </section>
+
+    <section id="quality">
+        <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h4 class="wow animate__animated animate__bounceInDown">Quality about my work ?</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="wow animate__animated animate__lightSpeedInRight">
+                Your full satisfiction is gurranted. I will work with you untill you have fully satisfied with your project. You will get full support anytime after completing your project.
+            </p>
+            </div>
+        </div>
+           
+        
+        <div class="row">
+            <div class="col-12">
+                <ul class="wow animate__animated ">
+                    <li><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> 100% hand made code</li>
+                    <li><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> Fully responsive</li>
+                    <li><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> Browser compatible</li>
+                    <li><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> w3 valid code</li>
+                    <li><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> Jquery effects</li>
+                    <li><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> CSS animations</li>
+                    <li><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> Support after delivery</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid">
+        <div class="row bg-dark text-light small">
+            <div class="col-12 text-center">
+                <span>copyright &copy; Rana RR</span>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <a href="#nav" id="nav">
+    <button class="sctop" id="sctop"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></button>
+    </a>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    
+
+    <!-- line progress -->
+    <script src="js/jquery.lineProgressbar.js"></script>
+    <!-- mixit up -->
+    <script src="js/mixitup.min.js"></script>
+    <!--One page nav js-->
+    <script src="js/jquerry-nav.js"></script>
+    <!-- typed js -->
+   
+    <script src="js/typed.min.js"></script>
+    <script src="js/jquerry-nav.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- main js -->
+    <script src="js/js.js"></script>
+  </body>
+</html>
