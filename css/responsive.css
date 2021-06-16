@@ -1,5 +1,7 @@
 @media screen and (max-width:1390px){
-
+     #hire-me .second-row .best{
+        width:40%;
+    }
 }
 @media screen and (max-width:1080px){
     #main-sec{
