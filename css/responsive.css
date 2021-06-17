@@ -2,6 +2,8 @@
      #hire-me .second-row .best{
         width:33%;
     }
+     #hire-me .second-row .cards .para{
+          font-size:15px;
 }
 @media screen and (max-width:1080px){
     #main-sec{
